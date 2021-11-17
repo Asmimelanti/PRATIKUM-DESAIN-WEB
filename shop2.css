@@ -1,0 +1,47 @@
+.asmi {
+  position: absolute;
+  top: 15%;
+  left: 43%;
+}
+
+.uts {
+  background-image: url("bijikopi.jpg");
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 22%;
+}
+
+.tk {
+  position: absolute;
+  top: 15%;
+  left: 24%;
+}
+
+a,tugas {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:hover,
+button:hover.acive a {
+  background-color: white;
+  color: black;
+}
+
+.tugas {
+  position: absolute;
+  top: 42%;
+  left: 23%;
+}

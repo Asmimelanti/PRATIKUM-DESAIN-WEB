@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: century gothic;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+ul li.acive a {
+  background-color: white;
+  color: black;
+}
+
+.craft {
+  background-image: url("vk.jpg");
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 27%;
+  left: 15%;
+}
+
+.text1 {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+
+.text2 {
+  position: absolute;
+  top: 60%;
+  left: 28%;
+}
+
+.craft2 {
+  background-image: url("vk2.jpg");
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
